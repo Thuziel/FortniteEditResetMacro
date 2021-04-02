@@ -16,7 +16,8 @@ keyboard = Controller()
 print("Marco successfully setup.\n")
 print("Controls:\n    "+run+" to run\n    "+close+" to close\n")
 print("Current Fortnite keybinds:\n    "+inventorySlot+" what inventory slot it switches to\n    "+editKey+" to edit\n    "+resetEditKey+" to reset edits\n")
-print("If you would like to change any of these you can do so on lines 4-8.")
+print("If you would like to change any of these you can do so on lines 4-8.\n")
+print("Time between each button press is "+str(timeout)+". You can change it on line 10 (if you make it to fast you may get banned).")
 
 def on_press(key):
     if key == reset_key:
